@@ -266,7 +266,8 @@
                             {% raw %}<img src="{{site_logo}}" alt="Kingfisher Square">{% endraw %}
                         </script>
                     </a>
-                    <a href="#" class="btn btn-navbar btn-default navbar-toggle" onclick="javascript:toggle_menu()"><span class="nb_left pull-left">
+                    <a href="#" class="btn btn-navbar btn-default navbar-toggle" onclick="javascript:toggle_menu()">
+                        <span class="nb_left pull-left">
                         <span class="fa fa-reorder"></span></span><p style="display:none">menu</p> </a></div>
                         <div class="mobile_menu" style="display:none">
                         <ul>
