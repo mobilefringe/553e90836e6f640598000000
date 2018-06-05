@@ -330,7 +330,7 @@
     <h2 style="display:none;">Kingfisher Square</h2>
     <div id="page_content">{{yield}}</div>
 
-<footer>
+    <footer>
     <section id="footer_teasers_wrapper">
         
         <div class="container">
