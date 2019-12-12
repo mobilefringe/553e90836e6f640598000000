@@ -118,6 +118,9 @@
         max-width: 90px;
         margin: 10px 15px;
     }
+    .ribbon_container {
+        display: none;
+    }
     
     /*hyperlinks*/
     a{
@@ -280,6 +283,15 @@
         .logo_container {
             left: 0;
             bottom: -55px;
+        }
+        .header-logos {
+            display: initial;
+        }
+        .header-ribbon {
+            display: none !important;
+        }
+        .ribbon_container {
+            display: block;
         }
     }
     
