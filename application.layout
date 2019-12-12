@@ -115,9 +115,7 @@
     }
     
     .header-ribbon {
-        /*max-width: 90px;*/
         max-width: 57px;
-        /*margin: 10px 15px;*/
         position: relative;
         bottom: 15px;
     }
