@@ -413,7 +413,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     width:100%;
     border:1px solid #eeeeee;
     padding:3px;
-    object-fit: cover;
+    -o-object-fit: cover;
+    object-fit: cover
 }
 
 .page_banner{
