@@ -35,7 +35,7 @@
                                 <a href="/stores/{{store_detail_btn}}">{{store_name}}</a><br>{{job_type}}
                                 <a href="../jobs/{{slug}}" class="btn btn-primary pull-right" style="margin-top:-17px">Job Details</a>
                             </p>
-                         </div>
+                        </div>
                     </div>
                 </script>
             </div>  
@@ -83,6 +83,13 @@
             } 
             $("#loading_screen").hide();
             $("#main_content").show();
+            
+            // dynamic banner 
+            var bannerInfo = getRepoDetailsByName('Jobs Banner')
+            var bannerImageUrl = bannerInfo.images[0].image_url
+            if (bannerImageUrl) {
+                $(".inside_banner_image").attr("src", bannerImageUrl);
+            }
         }
         
         function renderPageData(container, template, collection, type){
